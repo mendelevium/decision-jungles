@@ -1,3 +1,23 @@
+[project]
+name = "decision-jungles_mendelevium"
+version = "0.1.0"
+authors = [
+  { name="Martin Dionne", email="fertilis.ai@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/mendelevium/decision-jungles"
+Issues = "https://github.com/mendelevium/decision-jungles/issues"
+
 [build-system]
 requires = ["setuptools>=42", "wheel", "Cython>=0.29.0"]
 build-backend = "setuptools.build_meta"

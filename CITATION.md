@@ -7,10 +7,10 @@ If you use Decision Jungles in your research, please cite the following:
 ```bibtex
 @software{decision_jungles,
   title = {Decision Jungles: A Scikit-learn Compatible Implementation},
-  author = {{Decision Jungle Team}},
-  year = {2024},
+  author = {{Martin Dionne}},
+  year = {2025},
   version = {0.1.0},
-  url = {https://github.com/example/decision-jungles}
+  url = {https://github.com/mendelevium/decision-jungles}
 }
 ```
 
@@ -32,10 +32,10 @@ The Decision Jungles algorithm was introduced in the following paper:
 
 When using Decision Jungles in your research, we recommend citing both the software implementation and the original paper. For example:
 
-> In our experiments, we used the scikit-learn compatible implementation of Decision Jungles (Decision Jungle Team, 2024), which is based on the algorithm described in Shotton et al. (2013).
+> In our experiments, we used the scikit-learn compatible implementation of Decision Jungles (Martin Dionne, 2025), which is based on the algorithm described in Shotton et al. (2013).
 
 ### References
 
-Decision Jungle Team. (2024). Decision Jungles: A Scikit-learn Compatible Implementation (Version 0.1.0) [Computer software]. https://github.com/example/decision-jungles
+Martin Dionne (2025). Decision Jungles: A Scikit-learn Compatible Implementation (Version 0.1.0) [Computer software]. https://github.com/mendelevim/decision-jungles
 
 Shotton, J., Sharp, T., Kohli, P., Nowozin, S., Winn, J., & Criminisi, A. (2013). Decision Jungles: Compact and Rich Models for Classification. In Advances in Neural Information Processing Systems (pp. 234-242).
