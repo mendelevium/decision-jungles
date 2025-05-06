@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Decision Jungle Team"
+    email: "info@example.com"
+    affiliation: "Decision Jungle Project"
+title: "Decision Jungles: A Scikit-learn Compatible Implementation"
+version: 0.1.0
+doi: 10.5281/zenodo.xxxx
+date-released: 2024-01-01
+url: "https://github.com/example/decision-jungles"
+license: MIT
+repository-code: "https://github.com/example/decision-jungles"
+keywords:
+  - "machine learning"
+  - "decision jungles"
+  - "classification"
+  - "regression"
+  - "directed acyclic graphs"
+references:
+  - type: article
+    authors:
+      - family-names: "Shotton"
+        given-names: "Jamie"
+      - family-names: "Sharp"
+        given-names: "Toby"
+      - family-names: "Kohli"
+        given-names: "Pushmeet"
+      - family-names: "Nowozin"
+        given-names: "Sebastian"
+      - family-names: "Winn"
+        given-names: "John"
+      - family-names: "Criminisi"
+        given-names: "Antonio"
+    title: "Decision Jungles: Compact and Rich Models for Classification"
+    year: 2013
+    conference:
+      name: "Advances in Neural Information Processing Systems (NIPS)"
+    pages: "234-242"

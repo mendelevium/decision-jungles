@@ -1,0 +1,15 @@
+theme: jekyll-theme-cayman
+title: Decision Jungles
+description: A scikit-learn compatible implementation of Decision Jungles
+show_downloads: true
+google_analytics:
+github:
+  repository_url: https://github.com/mendelevium/decision-jungles
+  is_project_page: true
+  repository_name: decision-jungles
+  owner_name: Martin Dionne
+  owner_url: https://github.com/mendelevium
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

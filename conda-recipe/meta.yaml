@@ -1,0 +1,56 @@
+{% set name = "decision-jungles" %}
+{% set version = "0.1.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - python >=3.8
+    - pip
+    - setuptools
+  run:
+    - python >=3.8
+    - numpy >=1.17.0
+    - scipy >=1.3.0
+    - scikit-learn >=0.21.0
+    - matplotlib >=3.1.0
+    - networkx >=2.3
+    - joblib >=0.13.0
+
+test:
+  imports:
+    - decision_jungles
+  requires:
+    - pytest
+  commands:
+    - python -c "from decision_jungles import DecisionJungleClassifier, DecisionJungleRegressor"
+    - python -c "import decision_jungles; print(decision_jungles.__version__)"
+
+about:
+  home: https://github.com/example/decision-jungles
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: "A scikit-learn compatible implementation of Decision Jungles"
+  description: |
+    Decision Jungles are ensembles of rooted decision directed acyclic 
+    graphs (DAGs) that offer reduced memory footprint and improved 
+    generalization compared to decision forests through node merging.
+    Unlike traditional decision trees, DAG nodes can have multiple parents,
+    allowing for a more compact representation.
+  doc_url: https://github.com/example/decision-jungles/README.md
+  dev_url: https://github.com/example/decision-jungles
+
+extra:
+  recipe-maintainers:
+    - decision-jungle-team
