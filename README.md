@@ -25,6 +25,10 @@ Unlike conventional decision trees that only allow one path to every node, a DAG
 ```bash
 pip install decision-jungles
 ```
+or
+```bash
+pip install git+https://github.com/mendelevium/decision-jungles.git
+```
 
 ### Performance Optimization with Cython
 
